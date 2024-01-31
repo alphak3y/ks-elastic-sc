@@ -1,0 +1,680 @@
+echidna: ./config.yaml: withBinaryFile: does not exist (No such file or directory)
+Warning: unused option: multi-abi
+[2024-01-31 22:53:23.79] Compiling contracts/echidna/SwapMathEchidnaTest.sol... Done! (0.522290748s)
+Multiple contracts found, only analyzing the first
+Analyzing contract: /root/git/ks-elastic-sc/contracts/echidna/EchidnaAssert.sol:EchidnaAssert
+echidna: ABI is empty, are you sure your constructor is right?
+Warning: unused option: multi-abi
+[2024-01-31 22:56:32.61] Compiling .... Done! (0.14269534s)
+echidna: Couldn't compile given file
+stdout:
+stderr:
+ERROR:CryticCompile:Cannot execute `npx`, is it installed and in PATH?
+ERROR:CryticCompile:Cannot execute `npx`, is it installed and in PATH?
+INFO:CryticCompile:Problem executing hardhat to fetch configuration, using defaults: [Errno 2] No such file or directory: 'npx'
+ERROR:CryticCompile:Cannot execute `npx`, is it installed and in PATH?
+ERROR:CryticCompile:Compilation failed. Can you run build command?
+/root/git/ks-elastic-sc/artifacts/build-info is not a directory.
+
+Warning: unused option: multi-abi
+[2024-01-31 22:58:30.72] Compiling .... Done! (13.271789505s)
+echidna: Couldn't compile given file
+stdout:
+stderr:
+INFO:CryticCompile:'npx hardhat clean' running (wd: /root/git/ks-elastic-sc)
+ERROR:CryticCompile:'npx' returned non-zero exit code 1
+ERROR:CryticCompile:npm WARN exec The following package was not found and will be installed: hardhat@2.19.5
+stderr: Error HH12: Trying to use a non-local installation of Hardhat, which is not supported.
+stderr: Please install Hardhat locally using npm or Yarn, and try again.
+stderr: HardhatError: HH12: Trying to use a non-local installation of Hardhat, which is not supported.
+stderr: Please install Hardhat locally using npm or Yarn, and try again.
+stderr:     at main (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/cli.ts:199:13)
+stderr:     at Object.<anonymous> (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/cli.ts:474:1)
+stderr:     at Module._compile (node:internal/modules/cjs/loader:1376:14)
+stderr:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+stderr:     at Module.load (node:internal/modules/cjs/loader:1207:32)
+stderr:     at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+stderr:     at Module.require (node:internal/modules/cjs/loader:1235:19)
+stderr:     at require (node:internal/modules/helpers:176:18)
+stderr:     at Object.<anonymous> (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/bootstrap.ts:16:1)
+stderr:     at Module._compile (node:internal/modules/cjs/loader:1376:14)
+stderr: npm notice 
+stderr: npm notice New minor version of npm available! 10.2.4 -> 10.4.0
+stderr: npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.4.0>
+stderr: npm notice Run `npm install -g npm@10.4.0` to update!
+stderr: npm notice
+INFO:CryticCompile:'npx hardhat clean --global' running (wd: /root/git/ks-elastic-sc)
+ERROR:CryticCompile:'npx' returned non-zero exit code 1
+ERROR:CryticCompile:Error HH12: Trying to use a non-local installation of Hardhat, which is not supported.
+stderr: Please install Hardhat locally using npm or Yarn, and try again.
+stderr: HardhatError: HH12: Trying to use a non-local installation of Hardhat, which is not supported.
+stderr: Please install Hardhat locally using npm or Yarn, and try again.
+stderr:     at main (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/cli.ts:199:13)
+stderr:     at Object.<anonymous> (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/cli.ts:474:1)
+stderr:     at Module._compile (node:internal/modules/cjs/loader:1376:14)
+stderr:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+stderr:     at Module.load (node:internal/modules/cjs/loader:1207:32)
+stderr:     at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+stderr:     at Module.require (node:internal/modules/cjs/loader:1235:19)
+stderr:     at require (node:internal/modules/helpers:176:18)
+stderr:     at Object.<anonymous> (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/bootstrap.ts:16:1)
+stderr:     at Module._compile (node:internal/modules/cjs/loader:1376:14)
+INFO:CryticCompile:Problem executing hardhat: Error HH12: Trying to use a non-local installation of Hardhat, which is not supported.
+Please install Hardhat locally using npm or Yarn, and try again.
+HardhatError: HH12: Trying to use a non-local installation of Hardhat, which is not supported.
+Please install Hardhat locally using npm or Yarn, and try again.
+    at main (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/cli.ts:199:13)
+    at Object.<anonymous> (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/cli.ts:474:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/bootstrap.ts:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+
+INFO:CryticCompile:'npx hardhat compile --force' running (wd: /root/git/ks-elastic-sc)
+ERROR:CryticCompile:'npx' returned non-zero exit code 1
+ERROR:CryticCompile:Error HH12: Trying to use a non-local installation of Hardhat, which is not supported.
+stderr: Please install Hardhat locally using npm or Yarn, and try again.
+stderr: HardhatError: HH12: Trying to use a non-local installation of Hardhat, which is not supported.
+stderr: Please install Hardhat locally using npm or Yarn, and try again.
+stderr:     at main (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/cli.ts:199:13)
+stderr:     at Object.<anonymous> (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/cli.ts:474:1)
+stderr:     at Module._compile (node:internal/modules/cjs/loader:1376:14)
+stderr:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+stderr:     at Module.load (node:internal/modules/cjs/loader:1207:32)
+stderr:     at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+stderr:     at Module.require (node:internal/modules/cjs/loader:1235:19)
+stderr:     at require (node:internal/modules/helpers:176:18)
+stderr:     at Object.<anonymous> (/root/.npm/_npx/ef9ef3f50c7d7dc1/node_modules/hardhat/src/internal/cli/bootstrap.ts:16:1)
+stderr:     at Module._compile (node:internal/modules/cjs/loader:1376:14)
+ERROR:CryticCompile:Compilation failed. Can you run build command?
+/root/git/ks-elastic-sc/artifacts/build-info is not a directory.
+
+Warning: unused option: multi-abi
+[2024-01-31 23:02:05.20] Compiling .... Done! (12.4476421s)
+echidna: Couldn't compile given file
+stdout:
+stderr:
+INFO:CryticCompile:'npx hardhat clean' running (wd: /root/git/ks-elastic-sc)
+ERROR:CryticCompile:'npx' returned non-zero exit code 1
+ERROR:CryticCompile:An unexpected error occurred:
+stderr: deployment/deployElastic.ts(22,8): error TS2307: Cannot find module '../typechain' or its corresponding type declarations.
+INFO:CryticCompile:'npx hardhat clean --global' running (wd: /root/git/ks-elastic-sc)
+ERROR:CryticCompile:'npx' returned non-zero exit code 1
+ERROR:CryticCompile:An unexpected error occurred:
+stderr: deployment/deployElastic.ts(22,8): error TS2307: Cannot find module '../typechain' or its corresponding type declarations.
+INFO:CryticCompile:Problem executing hardhat: An unexpected error occurred:
+deployment/deployElastic.ts(22,8): error TS2307: Cannot find module '../typechain' or its corresponding type declarations.
+
+
+INFO:CryticCompile:'npx hardhat compile --force' running (wd: /root/git/ks-elastic-sc)
+ERROR:CryticCompile:'npx' returned non-zero exit code 1
+ERROR:CryticCompile:An unexpected error occurred:
+stderr: deployment/deployElastic.ts(22,8): error TS2307: Cannot find module '../typechain' or its corresponding type declarations.
+ERROR:CryticCompile:Compilation failed. Can you run build command?
+/root/git/ks-elastic-sc/artifacts/build-info is not a directory.
+
+Warning: unused option: multi-abi
+[2024-01-31 23:07:36.84] Compiling .... Done! (43.759615919s)
+Analyzing contract: /root/git/ks-elastic-sc/contracts/echidna/SwapMathEchidnaTest.sol:SwapMathEchidnaTest
+[2024-01-31 23:08:21.66] Running slither on .... Done! (25.053445863s)
+Loaded 0 transaction sequences from corpus/reproducers
+Loaded 0 transaction sequences from corpus/coverage
+[2024-01-31 23:08:47.46] [Worker 116] Test checkCalcDeltaNextInvariants(uint128,uint160,uint160,uint24,bool) falsified!
+[2024-01-31 23:08:47.46] [Worker 116] Test AssertionFailed(..) falsified!
+[2024-01-31 23:08:49.77] [status] tests: 2/3, fuzzing: 16867/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:08:52.78] [status] tests: 2/3, fuzzing: 39390/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:08:55.79] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:08:58.80] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:09:01.81] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:09:04.81] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:09:07.82] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:09:10.90] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:09:13.91] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:09:16.92] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:09:19.93] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:09:22.94] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:09:25.95] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:09:27.15] [Worker 12] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 112] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 66] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 45] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 118] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 117] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 63] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 90] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 20] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 53] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 103] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 3] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 26] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 34] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 19] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 85] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 104] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 13] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 116] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 21] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 89] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 0] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 119] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 8] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 57] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 97] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 16] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 110] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 95] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 41] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 98] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 83] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 79] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 101] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 81] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 108] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 54] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 106] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 123] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 44] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 92] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 58] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 100] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 109] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 42] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 99] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 113] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 24] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 114] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 69] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 46] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 14] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 86] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 52] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 55] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 73] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 105] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 15] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 127] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 37] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 93] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 61] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 75] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 40] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 74] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 78] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 9] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 32] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 68] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 11] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 22] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 33] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 77] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 5] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 38] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 25] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 70] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 115] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 27] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 51] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 49] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 36] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 1] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 48] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 30] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 87] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 91] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 23] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 120] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 6] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 31] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 43] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 80] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 7] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 111] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 64] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 18] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 107] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 126] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 50] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 62] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 4] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 56] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 84] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 82] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 65] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 72] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 59] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 94] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 60] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 2] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 67] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 121] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 28] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 88] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 124] A test was falsified. Stopping.
+[2024-01-31 23:09:27.15] [Worker 96] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 29] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 122] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 17] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 76] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 39] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 47] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 35] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 71] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 102] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 10] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [Worker 125] Test limit reached. Stopping.
+[2024-01-31 23:09:27.15] [status] tests: 2/3, fuzzing: 51712/50000, values: [], cov: 0, corpus: 0
+checkCalcDeltaNextInvariants(uint128,uint160,uint160,uint24,bool): failed!💥  
+  Call sequence:
+    checkCalcDeltaNextInvariants(100317,2441981684616196029786426848259017791,1943414684043211329733288613833244795,1,false)
+
+Event sequence:
+AssertionFailed() from: SwapMathEchidnaTest@0xa329c0648769a73afac7f9381e08fb43dbea72
+
+checkComputeSwapStep(uint128,int256,uint160,uint160,uint8): passing
+AssertionFailed(..): failed!💥  
+  Call sequence:
+    checkCalcDeltaNextInvariants(262144,3402992956809132418596140100660247211,66119101136024775622716233608466517925,19,true)
+
+Event sequence:
+AssertionFailed() from: SwapMathEchidnaTest@0xa329c0648769a73afac7f9381e08fb43dbea72
+
+
+
+checkComputeSwapStep used a maximum of 6403 gas
+  Call sequence:
+    checkCalcDeltaNextInvariants(138937177883858612104185,1193109831714343392584876466785436411810228059832,1461501637330902918203684832716283019655932542972,17,true) from: 0x0000000000000000000000000000000000010000 Time delay: 62 seconds Block delay: 53
+    checkComputeSwapStep(120184067030320982328884274141930335379,39120037693768695265433046220120097508074362586904965066795337437647227502391,959706053963140454079732976174544531748092626543,441748631012903357548134834271717756779541897124,45) from: 0x0000000000000000000000000000000000020000 Time delay: 566552 seconds Block delay: 1984
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x10000000000000000 Time delay: 322359 seconds Block delay: 927
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x132134063b2a0bfdb Time delay: 359582 seconds Block delay: 42595
+    checkCalcDeltaNextInvariants(222338102671556624804687658636758363686,586992235683036507151731360817990691931278861536,1239041291941541147785206357910244408481583474759,101,false) from: 0x0000000000000000000000000000000000030000 Time delay: 444463 seconds Block delay: 24987
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x47318dbb84a78a662 Time delay: 96 seconds Block delay: 11826
+    checkComputeSwapStep(183334435815548195782633529350496448497,-254,989252688919590007482680362355424968107945405625,1158182179141013556238524270939799159174384588126,69) from: 0x0000000000000000000000000000000000010000 Time delay: 414224 seconds Block delay: 7
+    checkCalcDeltaNextInvariants(100000,1272657115024238857922912937895722835976208709637,172546884939928215870208815292107903929272419003,1861407,false) from: 0x0000000000000000000000000000000000020000 Time delay: 403492 seconds Block delay: 46903
+    checkCalcDeltaNextInvariants(332980973785755552949893800308897891917,1445019034453905135508056679806485490398246751256,301285900769647368842502189095345800341694791084,7617880,false) from: 0x0000000000000000000000000000000000030000 Time delay: 488786 seconds Block delay: 18334
+    checkCalcDeltaNextInvariants(691415978906521570653435304214169,524288,15658377851089213336598228950332356826793399392,14245104,true) from: 0x0000000000000000000000000000000000010000 Time delay: 360624 seconds Block delay: 59552
+    checkCalcDeltaNextInvariants(94497954647191229689637013425462466930,1394399738622909652387985451434953463558536019303,621429487205670236012514065121593672425441774165,5866226,false) from: 0x0000000000000000000000000000000000030000 Time delay: 318279 seconds Block delay: 52481
+    checkComputeSwapStep(1404880482679654955896180643,27051314186983616247711500403747702215344398129557688728335292647915866672919,1245620614103926261325926545352101029006732852162,67,129) from: 0x0000000000000000000000000000000000010000 Time delay: 243114 seconds Block delay: 58839
+    checkCalcDeltaNextInvariants(12847376061809297530290974190478138314,368141383201402098188627369499759954498916681153,1104073911000366861613450821610275635089782343510,2742574,true) from: 0x0000000000000000000000000000000000010000 Time delay: 3 seconds Block delay: 5237
+    checkComputeSwapStep(232151106725621266677057270098955829943,54089904702550505946293584958173310524262834064150612240619901228759783594069,293745384487846470678118907024494725859182369754,0,227) from: 0x0000000000000000000000000000000000020000 Time delay: 436727 seconds Block delay: 15988
+    checkCalcDeltaNextInvariants(218993309592049960625859287957074185417,1020909077050702128026271166986840760322532341793,1039996964377939067649631693177249900701661075152,13399606,true) from: 0x0000000000000000000000000000000000020000 Time delay: 438391 seconds Block delay: 41518
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x3e014d369eaac7226 Time delay: 322118 seconds Block delay: 23908
+    checkComputeSwapStep(143390470061805112901466781141572802768,23606603642725216877001215981064282871148134102307113130135274505228349086349,1081498382293905317650029610912597222435100667118,4369999,220) from: 0x0000000000000000000000000000000000020000 Time delay: 126 seconds Block delay: 32736
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x5392f90a15a3b48d3 Time delay: 196807 seconds Block delay: 21
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x343cfd0207de5268c Time delay: 118077 seconds Block delay: 4960
+    checkComputeSwapStep(89948584915484754653273515905362119470,291339464771989622907027621153398088496,103119691369729030107721327389573471110541912738,1137375920709714918147152224315734577026402661563,252) from: 0x0000000000000000000000000000000000020000 Time delay: 289048 seconds Block delay: 5053
+    checkCalcDeltaNextInvariants(210,1275970109282074763337705284979922465807219795400,1330567744020835428872953477442026001048369616195,17,false) from: 0x0000000000000000000000000000000000020000 Time delay: 10 seconds Block delay: 18334
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x3a38d913259ab60a4 Time delay: 168956 seconds Block delay: 15
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x47405840c6e1ec91b Time delay: 322320 seconds Block delay: 5
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x186e36578eba4a04b Time delay: 519847 seconds Block delay: 5008
+    checkComputeSwapStep(316642333369103297084488310740055219393,20271966764678112591973587275174617603797820460378051288111748133310191104563,183710564192410435516363594415197462484454411892,419145317737074922899706737198383481805008925770,173) from: 0x0000000000000000000000000000000000010000 Time delay: 292304 seconds Block delay: 49517
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x3a38d9132b4252855 Time delay: 455679 seconds Block delay: 4966
+    checkComputeSwapStep(108669978083607865918158880843183481703,31548404627217501962507333753782234716126519981881465327108087925166628347080,754445031121178550454246858349772263048864121517,630367361736106672574055294911179167303508599627,26) from: 0x0000000000000000000000000000000000020000 Time delay: 566552 seconds Block delay: 4972
+    checkComputeSwapStep(4097,62,599290588,1461446703485210103287273052203988822378723970343,117) from: 0x0000000000000000000000000000000000030000 Time delay: 156190 seconds Block delay: 60451
+    checkComputeSwapStep(306546837663094488020330720865791694213,3839064153022475132434173017404317073751153859569333576994752026215953280525,54,1007414594562905317362405393709121175563346725918,45) from: 0x0000000000000000000000000000000000010000 Time delay: 110826 seconds Block delay: 15369
+    checkCalcDeltaNextInvariants(98294193193353868089896109173445099852,1341847049267313134000553625876693728991994680799,37438281053252904590474579760730745903655998280,61,true) from: 0x0000000000000000000000000000000000030000 Time delay: 49245 seconds Block delay: 14207
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x3ff Time delay: 277232 seconds Block delay: 26733
+    checkCalcDeltaNextInvariants(20001,1268422194898714960581610816564612887544918039340,856930207492403561853519548322409114012267729155,8820813,false) from: 0x0000000000000000000000000000000000020000 Time delay: 417305 seconds Block delay: 1036
+    checkCalcDeltaNextInvariants(94986427890993548782470633077670521634,1046612044135939526334673044250229659165342334378,912236279065866400542420241552223167230279096454,11143362,false) from: 0x0000000000000000000000000000000000030000 Time delay: 340462 seconds Block delay: 5008
+    checkComputeSwapStep(4104423559306940396086276128972694508,1023,1208484219659520839953308446310255549155576240266,372160857673601281537875647875522017958230681119,128) from: 0x0000000000000000000000000000000000020000 Time delay: 322274 seconds Block delay: 47267
+    checkComputeSwapStep(18,57896044618658097711785492504343953926634992332820282019728792003956564819897,1158687415012479257128349673559664851097205323162,599290590,231) from: 0x0000000000000000000000000000000000030000 Time delay: 322316 seconds Block delay: 49517
+    checkComputeSwapStep(843,432,189514620018719603905586277024460747851685822196,2047,23) from: 0x0000000000000000000000000000000000020000 Time delay: 314183 seconds Block delay: 511
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x371019b7f64b0a659 Time delay: 33605 seconds Block delay: 45284
+    checkComputeSwapStep(95282798412949387506047449218899667078,371636862,513,54,28) from: 0x0000000000000000000000000000000000020000 Time delay: 11 seconds Block delay: 23721
+    checkComputeSwapStep(514,131073,131072,677502878605592320925969123198876874243768400814,127) from: 0x0000000000000000000000000000000000030000 Time delay: 521648 seconds Block delay: 94
+    checkCalcDeltaNextInvariants(149997214084966997727330242082538205944,131073,867,16354651,true) from: 0x0000000000000000000000000000000000010000 Time delay: 566039 seconds Block delay: 51296
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x3a38d9132ca4be2c4 Time delay: 322345 seconds Block delay: 52722
+    checkCalcDeltaNextInvariants(242804112508822403879062939691261793517,141611969036334323157073849270162908680376467049,66119101136024775622716233608466517927,6808025,true) from: 0x0000000000000000000000000000000000010000 Time delay: 111322 seconds Block delay: 4825
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x64 Time delay: 332369 seconds Block delay: 46530
+    checkCalcDeltaNextInvariants(37974180389839529426428092111300070324,425559685640633561482905048526480689025097699919,340146287995602323631171512101879684303,1000477,false) from: 0x0000000000000000000000000000000000030000 Time delay: 224282 seconds Block delay: 19879
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x1a9c600b2820e24f7 Time delay: 412373 seconds Block delay: 47265
+    checkComputeSwapStep(153684454114637158125818928567943402304,-127,4095,291339464771989622907027621153398088496,105) from: 0x0000000000000000000000000000000000020000 Time delay: 16383 seconds Block delay: 485
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x2a1f3b45814aee4e7 Time delay: 322322 seconds Block delay: 45505
+    checkComputeSwapStep(3,-10,795456736864371974247637382877236415530857130856,95,251) from: 0x0000000000000000000000000000000000030000 Time delay: 30692 seconds Block delay: 37199
+    checkComputeSwapStep(151496696514455634071959655849970471257,22797037050683214864928686000790720976284939717040694396480235364298685721219,65534,1194897841997741168336058278371873565970571190996,3) from: 0x0000000000000000000000000000000000030000 Time delay: 110828 seconds Block delay: 4825
+    checkCalcDeltaNextInvariants(166168082338794491425647248894300566407,810304857719308793071860981807108402671386067945,106,8183127,true) from: 0x0000000000000000000000000000000000010000 Time delay: 20001 seconds Block delay: 40190
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x3238d9132ca4be2d4 Time delay: 322361 seconds Block delay: 50958
+    checkComputeSwapStep(14,44581578450865925515996435825540412653087472210116725085468090160410382165769,0,339738377640345403697157401104375502016,95) from: 0x0000000000000000000000000000000000020000 Time delay: 54 seconds Block delay: 2
+    checkComputeSwapStep(156641572678960952851152668389022891010,-2,340282366920938463463374607431768211456,1086673348831633907285688401763505022149150161094,33) from: 0x0000000000000000000000000000000000020000 Time delay: 570593 seconds Block delay: 57192
+    checkComputeSwapStep(362,18,331682121138379247127172139078559817299,4294967295,248) from: 0x0000000000000000000000000000000000020000 Time delay: 314183 seconds Block delay: 5141
+    checkCalcDeltaNextInvariants(307163716377032989948697243942600083929,262143,575262895807153892327695729583181990345131341414,5274133,true) from: 0x0000000000000000000000000000000000010000 Time delay: 281651 seconds Block delay: 41598
+    checkComputeSwapStep(194516659650480571023059952520319996018,-128,1524785993,314799428766301995631630816480424448097241441298,30) from: 0x0000000000000000000000000000000000020000 Time delay: 438390 seconds Block delay: 4974
+    checkComputeSwapStep(291445988584955050376919642592763573806,57896044618658097711785492504343953926634992332820282019728792003956564819268,1461446703485210103287273052203988822378723970342,1021847901911955648270651940851181251592971527309,87) from: 0x0000000000000000000000000000000000010000 Time delay: 305572 seconds Block delay: 95
+    checkCalcDeltaNextInvariants(147987926120553791751686881302105038453,69,180662241914084077645071461168438891018562740507,9135548,true) from: 0x0000000000000000000000000000000000020000 Time delay: 68 seconds Block delay: 34
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x2f Time delay: 436727 seconds Block delay: 511
+    checkComputeSwapStep(277268403626896220162999269216087595044,485053260817066172746253684029974021,1152562515507227596149304856978277724367258209131,149975961904525218693913821940915637146132608995,20) from: 0x0000000000000000000000000000000000020000 Time delay: 400763 seconds Block delay: 4972
+    checkCalcDeltaNextInvariants(232476931040265077947542052646908939627,256,830,2047,false) from: 0x0000000000000000000000000000000000020000 Time delay: 68 seconds Block delay: 27160
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x64 Time delay: 80211 seconds Block delay: 5054
+    checkCalcDeltaNextInvariants(2835717306,149997214084966997727330242082538205942,39,5,false) from: 0x0000000000000000000000000000000000010000 Time delay: 49735 seconds Block delay: 11
+    checkComputeSwapStep(79228162514264337593543950337,3979152025758112001243675960200148081296431982706057230363545072468150062501,257,225923453940442621947126027127485391334,97) from: 0x0000000000000000000000000000000000020000 Time delay: 454045 seconds Block delay: 1362
+    checkCalcDeltaNextInvariants(333500314551032550543694865878996712560,21,397578081167084265255825308784758856654299748173,2151343,false) from: 0x0000000000000000000000000000000000010000 Time delay: 56 seconds Block delay: 561
+    checkComputeSwapStep(12970790713343336027291791299922533538,7142531724476348018090526445040186413391084795467692334291576299840153057222,500118348648340153612421210707784913803221338,1142328062395278597140418206668464724196538423,84) from: 0x0000000000000000000000000000000000010000 Time delay: 410219 seconds Block delay: 20243
+
+checkCalcDeltaNextInvariants used a maximum of 11411 gas
+  Call sequence:
+    checkCalcDeltaNextInvariants(41330726202394543724809118445060898,524289,381943674850684267615287755715013604026146706323,4096,false) from: 0x0000000000000000000000000000000000010000 Time delay: 509384 seconds Block delay: 10042
+    checkComputeSwapStep(513,4,261527279803097196485413086877400028503045095042,335954724994790223023589805789778977700,36) from: 0x0000000000000000000000000000000000020000 Time delay: 33326 seconds Block delay: 25064
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x3a38d9132b54068d2 Time delay: 356064 seconds Block delay: 35464
+    checkCalcDeltaNextInvariants(25614499985773045929900798803798859420,623,79228162514264337593543950335,62,false) from: 0x0000000000000000000000000000000000020000 Time delay: 513 seconds Block delay: 20220
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x5152e7eff783e5c6c Time delay: 509871 seconds Block delay: 59981
+    checkCalcDeltaNextInvariants(1524785992,993190670527568220637929843448566349994510892,3402992956809132418596140100660247209,32,false) from: 0x0000000000000000000000000000000000020000 Time delay: 255 seconds Block delay: 25064
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x26ea6de24f7b1e5f9 Time delay: 136393 seconds Block delay: 4923
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x10199dcdab59cfdef Time delay: 285556 seconds Block delay: 19437
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0xfe Time delay: 61 seconds Block delay: 44842
+    checkComputeSwapStep(19999,26742126040063065225732423901138286267899950501580213755882658378279370285149,4096,673,240) from: 0x0000000000000000000000000000000000030000 Time delay: 322356 seconds Block delay: 59983
+    checkCalcDeltaNextInvariants(62,1270955052328855715499649346142261990968202609617,251336166888266869639293549898514454958649558345,9459621,true) from: 0x0000000000000000000000000000000000020000 Time delay: 271958 seconds Block delay: 48682
+    checkCalcDeltaNextInvariants(140012831532489516763563635076499555355,1064643062883886049236878333808090973221168699086,340265354078544963557816517032075149314,502688,true) from: 0x0000000000000000000000000000000000020000 Time delay: 288934 seconds Block delay: 27825
+    checkCalcDeltaNextInvariants(306965915398933767311154339660288763374,209188180159959967958859383295809706687294240203,291339464771989622907027621153398088496,1511028,false) from: 0x0000000000000000000000000000000000010000 Time delay: 32769 seconds Block delay: 26733
+    checkCalcDeltaNextInvariants(167296643120,340214320654664324051920982716015181261,225923453940442621947126027127485391333,104,false) from: 0x0000000000000000000000000000000000030000 Time delay: 275422 seconds Block delay: 929
+
+Unique instructions: 0
+Unique codehashes: 0
+Corpus size: 0
+Seed: 9153483417607497735
+
+[2024-01-31 23:09:27.15] Saving test reproducers... Done! (0.000351579s)
+[2024-01-31 23:09:27.15] Saving corpus... Done! (0.000000181s)
+Warning: unused option: multi-abi
+[2024-01-31 23:14:01.47] Compiling .... Done! (44.822708139s)
+Analyzing contract: /root/git/ks-elastic-sc/contracts/echidna/SwapMathEchidnaTest.sol:SwapMathEchidnaTest
+[2024-01-31 23:14:47.36] Running slither on .... Done! (24.913055671s)
+Loaded 2 transaction sequences from corpus/reproducers
+Loaded 0 transaction sequences from corpus/coverage
+[2024-01-31 23:15:12.90] [Worker 122] Test limit reached. Stopping.
+[2024-01-31 23:15:12.93] [Worker 30] Test limit reached. Stopping.
+[2024-01-31 23:15:12.94] [Worker 0] Test checkCalcDeltaNextInvariants(uint128,uint160,uint160,uint24,bool) falsified!
+[2024-01-31 23:15:12.94] [Worker 0] Test AssertionFailed(..) falsified!
+[2024-01-31 23:15:12.94] [Worker 0] Sequence replayed from corpus (1/1)
+[2024-01-31 23:15:12.97] [Worker 1] Test checkCalcDeltaNextInvariants(uint128,uint160,uint160,uint24,bool) falsified!
+[2024-01-31 23:15:12.97] [Worker 1] Test AssertionFailed(..) falsified!
+[2024-01-31 23:15:12.97] [Worker 1] Sequence replayed from corpus (1/1)
+[2024-01-31 23:15:15.33] [status] tests: 2/3, fuzzing: 15453/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:15:18.34] [status] tests: 2/3, fuzzing: 28082/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:15:21.36] [status] tests: 2/3, fuzzing: 39697/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:15:24.38] [status] tests: 2/3, fuzzing: 51413/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:15:27.39] [status] tests: 2/3, fuzzing: 51716/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:15:30.40] [status] tests: 2/3, fuzzing: 51716/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:15:33.42] [status] tests: 2/3, fuzzing: 51716/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:15:36.43] [status] tests: 2/3, fuzzing: 51716/50000, values: [], cov: 0, corpus: 0
+[2024-01-31 23:15:37.22] [Worker 0] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 3] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 5] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 4] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 7] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 1] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 6] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 2] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 8] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 10] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 12] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 14] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 15] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 13] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 16] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 18] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 20] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 19] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 24] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 23] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 25] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 27] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 26] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 11] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 21] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 22] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 29] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 28] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 9] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 31] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 33] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 32] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 34] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 35] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 36] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 37] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 38] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 39] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 40] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 41] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 17] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 42] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 43] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 44] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 45] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 46] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 47] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 48] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 49] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 50] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 51] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 52] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 53] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 54] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 55] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 56] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 57] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 58] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 60] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 61] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 62] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 63] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 59] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 64] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 65] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 66] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 68] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 69] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 71] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 70] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 67] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 73] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 72] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 75] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 74] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 77] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 78] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 79] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 80] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 81] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 82] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 83] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 84] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 76] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 85] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 86] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 87] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 88] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 89] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 90] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 91] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 92] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 93] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 95] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 96] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 97] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 98] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 100] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 99] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 102] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 101] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 103] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 104] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 105] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 106] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 107] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 109] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 108] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 110] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 111] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 112] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 113] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 114] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 115] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 116] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 117] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 118] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 119] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 94] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 120] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 121] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 123] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 124] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 125] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 126] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [Worker 127] Killed (thread killed). Stopping.
+[2024-01-31 23:15:37.22] [status] tests: 2/3, fuzzing: 51716/50000, values: [], cov: 0, corpus: 0
+checkCalcDeltaNextInvariants(uint128,uint160,uint160,uint24,bool): failed!💥  
+  Call sequence, shrinking 1715/5000:
+    checkCalcDeltaNextInvariants(100317,2441981684616196029786426848259017791,1943414684043211329733288613833244795,1,false)
+
+Event sequence:
+AssertionFailed() from: SwapMathEchidnaTest@0xa329c0648769a73afac7f9381e08fb43dbea72
+
+checkComputeSwapStep(uint128,int256,uint160,uint160,uint8): passing
+AssertionFailed(..): failed!💥  
+  Call sequence, shrinking 1715/5000:
+    checkCalcDeltaNextInvariants(100317,2441981684616196029786426848259017791,1943414684043211329733288613833244795,1,false)
+
+Event sequence:
+AssertionFailed() from: SwapMathEchidnaTest@0xa329c0648769a73afac7f9381e08fb43dbea72
+
+
+
+checkComputeSwapStep used a maximum of 6403 gas
+  Call sequence:
+    checkCalcDeltaNextInvariants(340265354078544963557816517032075149312,1059994144941006891561853638581114169003565698661,871697101477625674009408143892371863221244622961,3228879,true) from: 0x0000000000000000000000000000000000020000 Time delay: 1000 seconds Block delay: 45286
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x7fffffffffff Time delay: 219484 seconds Block delay: 23987
+    checkCalcDeltaNextInvariants(224372172634464015631837501980946956531,467,0,62,true) from: 0x0000000000000000000000000000000000030000 Time delay: 599978 seconds Block delay: 47266
+    checkComputeSwapStep(816296325751985269956033,-339195258003219555707034227454543997025,887272,189039711682081953737677696197012687937941885125,152) from: 0x0000000000000000000000000000000000010000 Time delay: 4176 seconds Block delay: 23978
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x1fef7ca2354d88f27 Time delay: 322175 seconds Block delay: 5022
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x61 Time delay: 97 seconds Block delay: 19999
+    checkCalcDeltaNextInvariants(6,925977589101282844929030352058054365287360392787,4370000,10028963,true) from: 0x0000000000000000000000000000000000010000 Time delay: 201 seconds Block delay: 41288
+    checkComputeSwapStep(149997214084966997727330242082538205943,17452658458424363413144596509293216824881438566348986839291270699945081656779,255738958999603826347140,65534,217) from: 0x0000000000000000000000000000000000010000 Time delay: 38059 seconds Block delay: 6721
+    checkComputeSwapStep(331682121138379247127172139078559817299,11248917868144013050355714310428598869281648081378813919101986308233206964845,26266880398734352127693365272447965946653467647,335954724994790223023589805789778977700,253) from: 0x0000000000000000000000000000000000030000 Time delay: 437838 seconds Block delay: 4768
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x2000 Time delay: 31595 seconds Block delay: 4725
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x3a38d9132ca4be275 Time delay: 487078 seconds Block delay: 39
+    checkCalcDeltaNextInvariants(315276095885919739447233952063552782723,131072,65,6039154,true) from: 0x0000000000000000000000000000000000020000 Time delay: 209930 seconds Block delay: 57313
+    checkCalcDeltaNextInvariants(340282366920938463463374607431768211453,47405879440330749,225923453940442621947126027127485391333,16777214,false) from: 0x0000000000000000000000000000000000020000 Time delay: 322319 seconds Block delay: 46902
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x2036a4767895e0631 Time delay: 243113 seconds Block delay: 26732
+    checkCalcDeltaNextInvariants(55450651676875192894760919984809219134,4,340146287995602323631171512101879684303,11,false) from: 0x0000000000000000000000000000000000030000 Time delay: 500050 seconds Block delay: 26733
+    checkCalcDeltaNextInvariants(124321221186251284888954236787,733945904295242614206187155579187878709257004361,347616960357688209732959819666557849636082524262,105,false) from: 0x0000000000000000000000000000000000030000 Time delay: 50 seconds Block delay: 46901
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x3a38d9132ca4be2c2 Time delay: 410220 seconds Block delay: 12783
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x72573106dec8b5e0 Time delay: 297507 seconds Block delay: 2512
+    checkComputeSwapStep(97902960399333503958969657636724769868,53,817605763823178126083375397321321884165752408923,1288395861701254079144121950945566688148362340865,116) from: 0x0000000000000000000000000000000000030000 Time delay: 569114 seconds Block delay: 60288
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0xb068b0a66b608d77 Time delay: 59188 seconds Block delay: 8447
+    checkComputeSwapStep(4097,18759952123387227701013787044688643743080677735669643180844988195083677814425,93,1070703964539372894347740750003017888354159392108,176) from: 0x0000000000000000000000000000000000020000 Time delay: 219484 seconds Block delay: 53011
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x2dd9875bbc61524ed Time delay: 322354 seconds Block delay: 58783
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x25d43216b89292ee4 Time delay: 415353 seconds Block delay: 16120
+    checkComputeSwapStep(297446897849844755552057756538797452648,57896044618658097711785492504343953926395937062163183138389501727748136155775,1018301531161496999180508048051101096125966040164,555197859265205875296832537937584230881111598221,236) from: 0x0000000000000000000000000000000000030000 Time delay: 356064 seconds Block delay: 1088
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x23b872dd Time delay: 45142 seconds Block delay: 5022
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x3a38d9132ca4b94b3 Time delay: 488786 seconds Block delay: 50499
+    checkCalcDeltaNextInvariants(86559268107723860516664332152966575846,335954724994790223023589805789778977699,2,99999,true) from: 0x0000000000000000000000000000000000010000 Time delay: 321862 seconds Block delay: 4923
+    checkComputeSwapStep(3402992956809132418596140100660247209,39062189688119265167825148462936005280399315619397490247600969147556494757543,7143693533426311086186919862578219880471769462,11821662040230860930435682307984981305377529716,110) from: 0x0000000000000000000000000000000000030000 Time delay: 420078 seconds Block delay: 55
+
+checkCalcDeltaNextInvariants used a maximum of 19868 gas
+  Call sequence:
+    checkComputeSwapStep(165733521712040643278898030707238868899,-170141183460469231731687303715884105729,1205158752393146066740900532715137046443651791514,425605195255733005033948363290690426289668227297,180) from: 0x0000000000000000000000000000000000010000 Time delay: 56 seconds Block delay: 28699
+    checkComputeSwapStep(260265840250991757653899759801687227520,15887316404096277139936547813527908210274523731211216626006282407580695897235,680310828144249085259816756425602096865085006573,131071,252) from: 0x0000000000000000000000000000000000030000 Time delay: 46980 seconds Block delay: 23886
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x63 Time delay: 45142 seconds Block delay: 34
+    checkCalcDeltaNextInvariants(62727750556727979735902379187351077652,7,1524785991,287,false) from: 0x0000000000000000000000000000000000030000 Time delay: 455680 seconds Block delay: 43693
+    checkComputeSwapStep(36620153731128053402998630493060735810,7608528126715945673446736877430264809487381082012311666543770182695030946556,55803498041143783737113676957858720616885801963,65537,250) from: 0x0000000000000000000000000000000000030000 Time delay: 254 seconds Block delay: 60363
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x1000276a2 Time delay: 427126 seconds Block delay: 2513
+    checkComputeSwapStep(887272,10406435774815282315396277034834521491920048628641292505731875713783412806176,1104033950367524619589412369011920488229332943649,59,41) from: 0x0000000000000000000000000000000000020000 Time delay: 320326 seconds Block delay: 929
+    checkComputeSwapStep(274775374278282281006980255378691290831,-53,972940122307678722351976228693212642885040411809,50,101) from: 0x0000000000000000000000000000000000030000 Time delay: 436838 seconds Block delay: 25066
+    checkComputeSwapStep(652,4370000,6004471368871890983,340282366920938463463374607431768211456,11) from: 0x0000000000000000000000000000000000010000 Time delay: 289608 seconds Block delay: 24967
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x49c3c13a7e2e33c72 Time delay: 322343 seconds Block delay: 2975
+    checkCalcDeltaNextInvariants(114223827891094639554993676890285625100,1524785992,1461501637330902918203684832716283019655932542974,2049,true) from: 0x0000000000000000000000000000000000020000 Time delay: 322358 seconds Block delay: 20
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x3a38d9132ca4be26c Time delay: 322345 seconds Block delay: 11826
+    checkComputeSwapStep(338111622100601834656805679988414885971,599290590,129,399348912353031620981088305901177215597744278197,130) from: 0x0000000000000000000000000000000000020000 Time delay: 356065 seconds Block delay: 4992
+    checkComputeSwapStep(340282366920938463463374607431768211453,-340010263488231146823593991679159461445,4294967296,1084134527225425216476383728128299890694131079754,3) from: 0x0000000000000000000000000000000000020000 Time delay: 562071 seconds Block delay: 52720
+    checkCalcDeltaNextInvariants(2,104,34020538265663796757400808651757024193906382093,9069050,true) from: 0x0000000000000000000000000000000000020000 Time delay: 567595 seconds Block delay: 49121
+    checkComputeSwapStep(33,14535450944191497053287491977298037708063750120292458518372901740720257763557,332967955547252891129535208378162055304503205440,340146287995602323631171512101879684304,0) from: 0x0000000000000000000000000000000000010000 Time delay: 195123 seconds Block delay: 45284
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x3d6255ebed3209a01 Time delay: 60 seconds Block delay: 53562
+    checkComputeSwapStep(1000,53295117935652935438228351474607427587290474093328794885602740131311706497435,0,884296784055374151119126134880562426484263792352,19) from: 0x0000000000000000000000000000000000030000 Time delay: 114883 seconds Block delay: 41782
+    checkComputeSwapStep(296455707351855118628377526860894542448,2835717306,526747220945994918454874050428608276249340676444,8192,251) from: 0x0000000000000000000000000000000000010000 Time delay: 582693 seconds Block delay: 13549
+    checkCalcDeltaNextInvariants(340282366920938463463374607431768211452,485053260817066172746253684029974019,4295128740,7711892,true) from: 0x0000000000000000000000000000000000030000 Time delay: 65537 seconds Block delay: 51298
+    checkCalcDeltaNextInvariants(11,599290590,105,1024,false) from: 0x0000000000000000000000000000000000020000 Time delay: 4097 seconds Block delay: 47866
+    checkComputeSwapStep(353073666,33437492377378226760087498811281282659873828549087316441254475749622436198830,8193,4369999,101) from: 0x0000000000000000000000000000000000030000 Time delay: 7 seconds Block delay: 38773
+    checkComputeSwapStep(42780701531387090718423562248225259935,340010263488231146823593991679159461444,795210126429543163593238988752202849604353648022,323299236684853023288211250268160618739,47) from: 0x0000000000000000000000000000000000020000 Time delay: 49247 seconds Block delay: 256
+    checkCalcDeltaNextInvariants(143590707970771373771598929563419581434,477018620870779319319175524094204296969542938712,1461501637330902918203684832716283019655932542974,2751,false) from: 0x0000000000000000000000000000000000010000 Time delay: 4096 seconds Block delay: 1362
+    checkCalcDeltaNextInvariants(202015206841352812743187693886840045594,21299217665753605531764214193318642294394882338,4294967295,7873233,false) from: 0x0000000000000000000000000000000000010000 Time delay: 262144 seconds Block delay: 41781
+    checkComputeSwapStep(32767,25859888426121262288068166313388817047513847589877766799945071585286440254613,547464727528280365837201669821674243105454343068,340248342086729790484326174814286782778,101) from: 0x0000000000000000000000000000000000030000 Time delay: 318278 seconds Block delay: 10
+    checkCalcDeltaNextInvariants(371636861,1297265519920143032859139640493638581796835761673,1524785993,4831730,true) from: 0x0000000000000000000000000000000000020000 Time delay: 347840 seconds Block delay: 59
+    checkCalcDeltaNextInvariants(340146287995602323631171512101879684305,340282366920938463463374607431768211455,307071837385161684015450088898699682084157603037,887271,false) from: 0x0000000000000000000000000000000000020000 Time delay: 477538 seconds Block delay: 2976
+    checkComputeSwapStep(53062153791104153477028897124279341384,-64,1386401296540134377161009711159289470132498242220,599290589,245) from: 0x0000000000000000000000000000000000030000 Time delay: 365105 seconds Block delay: 4723
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x36a74e5fd55d9e44b Time delay: 449981 seconds Block delay: 53358
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x3e8 Time delay: 571110 seconds Block delay: 18333
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x32 Time delay: 254 seconds Block delay: 18603
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x3a38d9132ca4be2c3 Time delay: 322118 seconds Block delay: 46902
+    checkCalcDeltaNextInvariants(599290588,335954724994790223023589805789778977701,176,1593824,false) from: 0x0000000000000000000000000000000000030000 Time delay: 499487 seconds Block delay: 486
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x3a38d9132ca4be276 Time delay: 31593 seconds Block delay: 4825
+    checkComputeSwapStep(170141183460469231731687303715884105727,3011900128979789448950799719396235586251796514643199117082999622789738413772,1379352553339080872374911262858313053030660534092,20001,113) from: 0x0000000000000000000000000000000000010000 Time delay: 509870 seconds Block delay: 38346
+    checkComputeSwapStep(114763440103028334618495127033605331982,20631284470752043913673230708123495240715780105584959309401160470934959499731,4,338111622100601834656805679988414885972,51) from: 0x0000000000000000000000000000000000020000 Time delay: 490448 seconds Block delay: 10109
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x45 Time delay: 999 seconds Block delay: 5141
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x3a38d9132ca4be2bf Time delay: 68 seconds Block delay: 23907
+    checkComputeSwapStep(278434507142995190610676855387351320140,-4,9660907375796142349782330336982981464692493947,61,20) from: 0x0000000000000000000000000000000000030000 Time delay: 405856 seconds Block delay: 45852
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x3a38d9132ca4b62d4 Time delay: 450378 seconds Block delay: 45505
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x3a38d9132ca4be2ce Time delay: 71598 seconds Block delay: 14018
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x36a74e5fd55d9e44b Time delay: 322118 seconds Block delay: 99
+    checkComputeSwapStep(9,-1000,12847376061809297530290974190478138312,1461501637330902918203684832716283019655932542972,19) from: 0x0000000000000000000000000000000000030000 Time delay: 50416 seconds Block delay: 32767
+    checkComputeSwapStep(65536,29116278253441984296410450911433473383646176636359099181048755324015515936201,123680072771684269973805438914456934122117298812,449187892748874488558547387289861444610931671861,69) from: 0x0000000000000000000000000000000000010000 Time delay: 191304 seconds Block delay: 16383
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x3a38d9132ca4be2d5 Time delay: 54 seconds Block delay: 18333
+    checkCalcDeltaNextInvariants(97040731545463034460682023109010917990,31,1461501637330902918203684832716283019655932542973,197,true) from: 0x0000000000000000000000000000000000010000 Time delay: 427126 seconds Block delay: 41519
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x3a38d9132ca4bded4 Time delay: 322366 seconds Block delay: 4991
+    checkCalcDeltaNextInvariants(161340940700311657817706729748508678829,169418653839968216821023615676425603778576093804,7,15399066,false) from: 0x0000000000000000000000000000000000010000 Time delay: 448552 seconds Block delay: 28306
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x1190192591ed1c051 Time delay: 33328 seconds Block delay: 9966
+    checkComputeSwapStep(32862897529592469577388966988861,1461446703485210103287273052203988822378723970343,626419989142377191927038690074218865781379764316,307163716377032989948697243942600083930,51) from: 0x0000000000000000000000000000000000010000 Time delay: 401699 seconds Block delay: 5019
+    checkComputeSwapStep(335203771816591193251685314324054879077,-512,340010263488231146823593991679159461443,4097,185) from: 0x0000000000000000000000000000000000020000 Time delay: 256839 seconds Block delay: 4919
+    checkCalcDeltaNextInvariants(64536579905132330864272114472150851655,1461501637330902918203684832716283019655932542971,103254292265023764712318751563931419742323867165,11684381,true) from: 0x0000000000000000000000000000000000010000 Time delay: 273130 seconds Block delay: 52
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x1ffff Time delay: 46981 seconds Block delay: 24968
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x2792eb7a169cd4ead Time delay: 500051 seconds Block delay: 64
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x3bf76f9c31b572b2c Time delay: 463587 seconds Block delay: 39518
+    checkComputeSwapStep(3854655892949541524870974,47494340791171388546745548389339868910390721972852100401080657486033041760666,1000,86233540331034512816442265375779342488355420408,52) from: 0x0000000000000000000000000000000000020000 Time delay: 567595 seconds Block delay: 37931
+    checkComputeSwapStep(101744448162979609027758388169688569300,79228162514264337593543950335,40,100,255) from: 0x0000000000000000000000000000000000010000 Time delay: 172101 seconds Block delay: 41621
+    checkComputeSwapStep(201,48124972359470667758823517656084051851247633606825211253526357882549190440449,973799949524873892736538924508308965378544139139,196990410244181416988335514371700305764722616378,255) from: 0x0000000000000000000000000000000000010000 Time delay: 18 seconds Block delay: 34201
+    checkCalcDeltaNextInvariants(138578688247440592300321189828553291098,480,277314669806011352053527819085045339801838268015,16777212,true) from: 0x0000000000000000000000000000000000020000 Time delay: 243115 seconds Block delay: 33
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x1000276a4 Time delay: 512439 seconds Block delay: 4974
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x150b7a03 Time delay: 417306 seconds Block delay: 1362
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x1a02349cb40eddca4 Time delay: 4178 seconds Block delay: 40441
+    checkComputeSwapStep(429,-1461446703485210103287273052203988822378723970343,307163716377032989948697243942600083929,469,110) from: 0x0000000000000000000000000000000000010000 Time delay: 358061 seconds Block delay: 13548
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x5ef735058472e48b Time delay: 1023 seconds Block delay: 23275
+    checkComputeSwapStep(224996177545811353886108328947557991381,-4294967295,394332238185515260711221224067711450645704289329,443089749860832126702845979005485089510483920107,40) from: 0x0000000000000000000000000000000000010000 Time delay: 476189 seconds Block delay: 39273
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x3a38d9132ca4be2a3 Time delay: 46979 seconds Block delay: 48683
+    checkCalcDeltaNextInvariants(56,1889567281,258,30,true) from: 0x0000000000000000000000000000000000010000 Time delay: 50417 seconds Block delay: 5141
+    checkComputeSwapStep(371636862,37600374312988530592690564249827665917064278225541910279332833414460728513821,99,492558279227715716674905606125951401014740270558,3) from: 0x0000000000000000000000000000000000030000 Time delay: 322343 seconds Block delay: 38304
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x3a38d9132ca4be2bf Time delay: 322345 seconds Block delay: 19784
+    checkCalcDeltaNextInvariants(287129897094056136736053243332167258624,1205443722089110179667150820116874546130606890308,57,2963387,false) from: 0x0000000000000000000000000000000000030000 Time delay: 478623 seconds Block delay: 10487
+    checkComputeSwapStep(160060541530932290839805827816586567630,3301209340266515449505641883667859003524255940875234211807135915813743834842,942355775373061925710719316330693462773106797857,8191,0) from: 0x0000000000000000000000000000000000030000 Time delay: 410219 seconds Block delay: 17641
+    checkComputeSwapStep(50,15908654428791426486061239894330613119384153233065781990793408174647940004373,18,146766639343341597889495721585980060210035850196,68) from: 0x0000000000000000000000000000000000030000 Time delay: 257581 seconds Block delay: 5023
+    checkComputeSwapStep(887272,50680736991056001196552721205711640326302293738297529171928235879744372488693,928715088405949302830283100067286597012916681787,65,106) from: 0x0000000000000000000000000000000000010000 Time delay: 56 seconds Block delay: 55097
+    checkComputeSwapStep(188507240955305879253869245844119782802,131072,25604467920915851863044258702624769294473315360,371636861,60) from: 0x0000000000000000000000000000000000010000 Time delay: 321975 seconds Block delay: 16823
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x12a5ed991607e9427 Time delay: 225764 seconds Block delay: 38635
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x46721b607b426a854 Time delay: 15 seconds Block delay: 20665
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x35479b17457af924e Time delay: 359583 seconds Block delay: 18960
+    checkComputeSwapStep(131071,38100212371848679564614235174470358042993293276115215825386246665571299957888,55,331682121138379247127172139078559817301,0) from: 0x0000000000000000000000000000000000010000 Time delay: 305992 seconds Block delay: 15
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Time delay: 358061 seconds Block delay: 4957
+    checkComputeSwapStep(339738377640345403697157401104375502017,31087803297029020674940704940888604544926810177867739542424101636972132043632,1461446703485210103287273052203988822378723970342,1461501637330902918203684832716283019655932542972,17) from: 0x0000000000000000000000000000000000030000 Time delay: 500051 seconds Block delay: 6
+    checkComputeSwapStep(184576581301464688159923131438006872008,307163716377032989948697243942600083928,1437016902116348347808268900935894808316582002147,1440288595866360221193441292981706174292284325955,54) from: 0x0000000000000000000000000000000000030000 Time delay: 82670 seconds Block delay: 30555
+    checkCalcDeltaNextInvariants(19999,1461501637330902918203684832716283019655932542973,1000131579167904564927563027927680507846491000285,3133003,false) from: 0x0000000000000000000000000000000000030000 Time delay: 582692 seconds Block delay: 32738
+    checkCalcDeltaNextInvariants(323299236684853023288211250268160618739,1461501637330902918203684832716283019655932542974,1006110544255228030028119341583197619476527898125,4097,false) from: 0x0000000000000000000000000000000000020000 Time delay: 49 seconds Block delay: 45284
+    checkCalcDeltaNextInvariants(79228162514264337593543950336,65537,511,1023,true) from: 0x0000000000000000000000000000000000030000 Time delay: 322120 seconds Block delay: 5053
+    checkComputeSwapStep(307163716377032989948697243942600083929,26426898338032785951237255870433941015973078561376389203636899068718688463327,8191,291339464771989622907027621153398088496,8) from: 0x0000000000000000000000000000000000030000 Time delay: 338920 seconds Block delay: 32
+    checkCalcDeltaNextInvariants(339738377640345403697157401104375502016,149997214084966997727330242082538205944,1208604094328191823959522090736213841,15734534,false) from: 0x0000000000000000000000000000000000020000 Time delay: 571111 seconds Block delay: 4
+    *fallback*() from: 0x0000000000000000000000000000000000010000 Value: 0x3a38d9132ca4be1d6 Time delay: 62 seconds Block delay: 1000
+    *fallback*() from: 0x0000000000000000000000000000000000030000 Value: 0x4ea84cfae231e9b3c Time delay: 96611 seconds Block delay: 4540
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x1000276a2 Time delay: 376096 seconds Block delay: 32737
+    checkComputeSwapStep(201121932230795384665734236640878657886,28779429476174738753459450825512171394681221659997047099110239978272563467371,826953463939183204257442684574984159586654006901,255738958999603826347140,41) from: 0x0000000000000000000000000000000000010000 Time delay: 579337 seconds Block delay: 48681
+    *fallback*() from: 0x0000000000000000000000000000000000020000 Value: 0x2717a50cf17ab22f9 Time delay: 39904 seconds Block delay: 44062
+    checkComputeSwapStep(291339464771989622907027621153398088495,-128,1444766115905950650781043900856758528238814235936,21330076104,2) from: 0x0000000000000000000000000000000000030000 Time delay: 168958 seconds Block delay: 45504
+    checkCalcDeltaNextInvariants(691415978906521570653435304214168,340146287995602323631171512101879684303,65252135605859711750113610604076888457373,200,false) from: 0x0000000000000000000000000000000000020000 Time delay: 46981 seconds Block delay: 1025
+
+Unique instructions: 0
+Unique codehashes: 0
+Corpus size: 0
+Seed: 6135797672248909901
+
+[2024-01-31 23:15:37.23] Saving test reproducers... Done! (0.000098219s)
+[2024-01-31 23:15:37.23] Saving corpus... Done! (0.000000151s)

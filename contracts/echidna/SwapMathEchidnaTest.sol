@@ -110,6 +110,6 @@ contract SwapMathEchidnaTest is EchidnaAssert {
     require(targetSqrtP >= TickMath.MIN_SQRT_RATIO && targetSqrtP <= TickMath.MAX_SQRT_RATIO);
     require(liquidity >= 100000);
     require(feeInFeeUnits != 0);
-    require(currentSqrtP * 95 < targetSqrtP * 100 && targetSqrtP * 100 < currentSqrtP * 105);
+    require(!(currentSqrtP * 95 < targetSqrtP * 100 && targetSqrtP * 100 < currentSqrtP * 105));
   }
 }

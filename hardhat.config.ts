@@ -12,7 +12,6 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
-import './deployment/deployElastic.ts';
 import './deployment/periphery/tokenPositionDescriptor/deployTokenPositionDescriptor.ts';
 import {accounts} from './test-wallets';
 
