@@ -24,9 +24,9 @@ contract SwapMathEchidnaTest is EchidnaAssert {
       isToken0
     );
     if (isExactInput) {
-      isTrue(reachAmount >= 0);
+      isReachAmountExceeded(reachAmount >= 0);
     } else {
-      isTrue(reachAmount <= 0);
+      isReachAmountExceeded(reachAmount <= 0);
     }
 
     uint256 absDelta = isExactInput ? uint256(reachAmount) : uint256(-reachAmount);
@@ -49,9 +49,9 @@ contract SwapMathEchidnaTest is EchidnaAssert {
       isToken0
     );
     if (currentSqrtP > targetSqrtP) {
-      isTrue(nextSqrtP >= targetSqrtP);
+      isPriceTargetExceeded(nextSqrtP >= targetSqrtP);
     } else {
-      isTrue(nextSqrtP <= targetSqrtP);
+      isPriceTargetExceeded(nextSqrtP <= targetSqrtP);
     }
   }
 
