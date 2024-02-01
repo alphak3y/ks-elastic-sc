@@ -14,12 +14,15 @@ contract EchidnaAssert {
 
   function isPriceTargetExceeded(bool b) internal {
     if (!b) {
+      emit AssertionFailed();
       emit PriceTargetExceeded();
+
     }
   }
 
   function isReachAmountExceeded(bool b) internal {
     if (!b) {
+      emit AssertionFailed();
       emit ReachAmountExceeded();
     }
   }
