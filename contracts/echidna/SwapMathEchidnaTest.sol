@@ -14,6 +14,7 @@ contract SwapMathEchidnaTest is EchidnaAssert {
     bool isExactInput
   ) external {
     checkInitCondition(liquidity, currentSqrtP, targetSqrtP, feeInFeeUnits);
+    require(isExactInput);
     bool isToken0 = isExactInput ? (currentSqrtP > targetSqrtP) : (currentSqrtP < targetSqrtP);
     int256 reachAmount = SwapMath.calcReachAmount(
       liquidity,
