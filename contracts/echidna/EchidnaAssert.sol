@@ -16,7 +16,6 @@ contract EchidnaAssert {
     if (!b) {
       emit AssertionFailed();
       emit PriceTargetExceeded();
-
     }
   }
 
